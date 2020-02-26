@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Update logs</title>
+			<link>https://ilija712.github.io/index.html</link>
+			<description>Look at new changes about the game the moment they come out.</description>
+		</item>
+		<item>
+			<title>New champions</title>
+			<link>https://ilija712.github.io/champions.html</link>
+			<description>Learn everything about the new champions.</description>
+		</item>
+		<item>
+			<title>New items</title>
+			<link>https://ilija712.github.io/items.html</link>
+			<description>Learn everything about the new items.</description>
+		</item>
+		<item>
+			<title>New runes</title>
+			<link>https://ilija712.github.io/runes.html</link>
+			<description>Learn everything about the new runes changes.</description>
+		</item>
+		<item>
+			<title>New spells</title>
+			<link>https://ilija712.github.io/spells.html</link>
+			<description>Learn everything about the new spells and how they work.</description>
+		</item>
+	</channel>
+</rss>

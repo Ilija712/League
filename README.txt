@@ -1,0 +1,1 @@
+Recommended screen resolution width: 1366px

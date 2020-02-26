@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="Page about author containing any and all information you need."/>
+		<meta name="keywords" content="league, legends, about, wiki, author"/>
+		<title>League of Legends Wiki</title>
+	</head>
+	<body>
+		<header class="header1">
+			<div id="logo">
+				<a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+			</div>
+			<nav id="nav1">
+				<ul id="ul1">
+					<li class="li1"><a href="index.html">Home</a></li>
+					<li class="li1"><a href="champions.html">Champions</a></li>
+					<li class="li1"><a href="items.html">Items</a></li>
+					<li class="li1"><a href="runes.html">Runes</a></li>
+					<li class="li1"><a href="spells.html">Spells</a></li>
+					<li class="li1"><a class="active" href="about.html">Author</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main1">
+			<h1>About me</h1>
+		</main>
+		<main class="main2 author special">
+			<div class="p1">
+				<p class="aboutme">
+					My name is Ilija Kostić. I'm studying web programming at "Visoka ICT Škola" in Belgrade. 
+					In my early childhood I was very interested in video games and computers. 
+					Now I am pursuing career in computer programming.
+				</p>
+			</div>
+			<div class="p1">
+				<img id="pp" src="img/about.JPG" alt="ilija kostic profile picture"/>
+			</div>
+		</main>
+		<main class="main2 special">
+			<div class="contactForm1">
+			<form name="contact" action="contact.php" method="post">
+				<div class="contactForm">
+					<label class="quest">Any questions about league of legends? Feel free to ask</label>
+					<input class="formTxt" type="text" name="firstName" placeholder="First name" required />
+					<input class="formTxt" type="text" name="lastName" placeholder="Last name" required />
+					<input class="formTxt" type="email" name="email" placeholder="Email" required />
+					<textarea id="txtarea" name="msg" cols="50" rows="10" placeholder="Type your message here"></textarea>
+					<input id="btn" type="submit" name="btn" value="Send Message"/>
+				</div>
+			</form>
+			</div>
+			<img id="poro" src="img/poro.jpg" alt="poro cookies"/>
+		</main>
+		<main class="main3">
+		</main>
+		<footer id="footer">
+			<ul>
+				<li>Contact Information</li>
+				<li>Phone: 0607011230</li>
+				<li>Email: ilija&#46;kostic&#46;56&#46;19&#64;ict&#46;edu&#46;rs</li>
+			</ul>
+			<div id="sitemapRss">
+				<p>Rss and Sitemap</p>
+				<div class="test">
+				<a class="soc" href="rss.xml" target="_blank"><i class="fa fa-rss"></i></a>
+				<a class="soc" href="sitemap.xml" target="_blank"><i class="fa fa-sitemap"></i></a>
+				</div>
+			</div>
+			<div id="soc">
+				<p>Social media</p>
+				<div class="test">
+				<a class="soc" href="https://www.youtube.com/user/riotgamesinc" target="_blank"><i class="fa fa-youtube-play"></i></a>
+				<a class="soc" href="https://twitter.com/leagueoflegends" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a class="soc" href="https://www.facebook.com/leagueoflegends" target="_blank"><i class="fa fa-facebook"></i></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
